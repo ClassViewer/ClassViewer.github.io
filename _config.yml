@@ -37,6 +37,8 @@ aux_links:
   "ClassViewer on GitHub":
     - "https://github.com/ClassViewer/ClassViewer"
 
+footer_content: "Copyright 2020 Glavo. All rights reserved."
+
 # Build settings
 remote_theme: pmarsceill/just-the-docs
 # theme: "just-the-docs"
