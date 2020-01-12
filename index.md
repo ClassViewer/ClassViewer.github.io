@@ -13,7 +13,7 @@ The latest version of ClassViewer is v{{ site.viewer_v3_version }}, [click here]
 
 We provide a ClassViewer distribution bundled with a JRE that includes JavaFX, they can run without any dependencies, visit the [download page]({{ "/download.html" | absolute_url }}) to get them!
 
-ClassViewer is free and open source software, if you want to support its developers, you can [make a donation]({{ "/download.html" | absolute_url }}).
+ClassViewer is free and open source software, if you want to support its developers, you can [make a donation]({{ "/donate.html" | absolute_url }}).
 
 ## Screenshot
 
