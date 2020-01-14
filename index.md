@@ -9,7 +9,7 @@ description: "ClassViewer home page"
 
 ClassViewer is a lightweight Java class file viewer.
 
-The latest version of ClassViewer is v{{ site.viewer_v3_version }}, [click here](https://github.com/ClassViewer/ClassViewer/releases/download/v{{ site.viewer_v3_version }}/ClassViewer-{{ site.viewer_v3_version }}.jar) to download the jar file.
+The latest version of ClassViewer is v{{ site.viewer_version }}, [click here](https://github.com/ClassViewer/ClassViewer/releases/download/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}.jar) to download the jar file.
 
 We provide a ClassViewer distribution bundled with a JRE that includes JavaFX, they can run without any dependencies, visit the [download page]({{ "/download.html" | absolute_url }}) to get them!
 
