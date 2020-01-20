@@ -26,7 +26,7 @@ url: "https://viewer.glavo.org" # the base hostname & protocol for your site, e.
 twitter_username: CattusGlavo
 github_username:  Glavo
 logo: "/assets/img/ClassViewer.png"
-viewer_version: 3.8
+viewer_version: 3.9
 viewer_release_date: 2020-1-12
 viewer_download_base: https://github.com/ClassViewer/ClassViewer/releases/download
 viewer_mirror_download_base: https://glavo-mirrors.oss-cn-beijing.aliyuncs.com/ClassViewer

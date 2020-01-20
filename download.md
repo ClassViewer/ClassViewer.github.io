@@ -9,100 +9,25 @@ description: "ClassViewer download page"
 
 The latest version of ClassViewer is v{{ site.viewer_version }},  it was released on {{ site.viewer_release_date }}, you can get it on this page, or go to the [Github Release page](https://github.com/ClassViewer/ClassViewer/releases) to get the previous versions.
 
-
-
-<table>
-  <tr>
-    <th>Operating System</th>
-    <th>Architecture</th>
-    <th>Download link</th>
-  </tr>
-  <tr>
-    <td>Any</td>
-    <td>Any</td>
-    <td><a href="{{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}.jar">ClassViewer-{{ site.viewer_version }}.jar</a></td>
-  </tr>
-  <tr>
-    <td>Windows</td>
-    <td>x86</td>
-    <td>
-      <a href="{{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86.7z"><b>ClassViewer-{{ site.viewer_version }}-windows-x86.7z</b></a><br>
-      <a href="{{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86.zip">ClassViewer-{{ site.viewer_version }}-windows-x86.zip</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Windows</td>
-    <td>x86_64</td>
-    <td>
-      <a href="{{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86_64.7z">ClassViewer-{{ site.viewer_version }}-windows-x86_64.7z</a><br>
-      <a href="{{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86_64.zip">ClassViewer-{{ site.viewer_version }}-windows-x86_64.zip</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Linux</td>
-    <td>x86_64</td>
-    <td>
-      <a href="{{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64.7z"><b>ClassViewer-{{ site.viewer_version }}-linux-x86_64.7z</b></a> <br>
-      <a href="{{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64.tar.gz">ClassViewer-{{ site.viewer_version }}-linux-x86_64.tar.gz</a> <br>
-      <a href="{{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64.zip">ClassViewer-{{ site.viewer_version }}-linux-x86_64.zip</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Mac OS</td>
-    <td>x86_64</td>
-    <td>
-      <a href="{{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-macos.7z"><b>ClassViewer-{{ site.viewer_version }}-macos.7z</b></a> <br>
-      <a href="{{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-macos.zip">ClassViewer-{{ site.viewer_version }}-macos.zip</a>
-    </td>
-  </tr>
-</table>
-
-
+| Operating System | Architecture               | Download link                                                |
+| ---------------- | -------------------------- | ------------------------------------------------------------ |
+| Any              | Any                        | **[ClassViewer-{{ site.viewer_version }}.jar]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}.jar)** |
+| Windows          | x86                        | **[ClassViewer-{{ site.viewer_version }}-windows-x86.7z]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86.7z)**<br>[ClassViewer-{{ site.viewer_version }}-windows-x86.zip]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86.zip) |
+| Windows          | x86_64                     | [ClassViewer-{{ site.viewer_version }}-windows-x86_64.7z]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86_64.7z)<br/>[ClassViewer-{{ site.viewer_version }}-windows-x86_64.zip]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86_64.zip) |
+| Linux            | x86_64 (native image) [^1] | **[ClassViewer-{{ site.viewer_version }}-linux-x86_64-native.7z]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64-native.7z)**<br/>[ClassViewer-{{ site.viewer_version }}-linux-x86_64-native.tar.gz]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64-native.tar.gz) |
+| Linux            | x86_64                     | **[ClassViewer-{{ site.viewer_version }}-linux-x86_64.7z]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64.7z)**<br/>[ClassViewer-{{ site.viewer_version }}-linux-x86_64.tar.gz]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64.tar.gz) |
+| Mac OS           | x86_64                     | **[ClassViewer-{{ site.viewer_version }}-macos.7z]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-macos.7z)**<br/>[ClassViewer-{{ site.viewer_version }}-macos.zip]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-macos.zip) |
 
 Here are some mirror download links for users in the mainland of China:
 
-<table>
-  <tr>
-    <th>Operating System</th>
-    <th>Architecture</th>
-    <th>Download link</th>
-  </tr>
-  <tr>
-    <td>Any</td>
-    <td>Any</td>
-    <td><a href="{{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}.jar">ClassViewer-{{ site.viewer_version }}.jar</a></td>
-  </tr>
-  <tr>
-    <td>Windows</td>
-    <td>x86</td>
-    <td>
-      <a href="{{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86.7z"><b>ClassViewer-{{ site.viewer_version }}-windows-x86.7z</b></a><br>
-      <a href="{{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86.zip">ClassViewer-{{ site.viewer_version }}-windows-x86.zip</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Windows</td>
-    <td>x86_64</td>
-    <td>
-      <a href="{{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86_64.7z">ClassViewer-{{ site.viewer_version }}-windows-x86_64.7z</a><br>
-      <a href="{{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86_64.zip">ClassViewer-{{ site.viewer_version }}-windows-x86_64.zip</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Linux</td>
-    <td>x86_64</td>
-    <td>
-      <a href="{{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64.7z"><b>ClassViewer-{{ site.viewer_version }}-linux-x86_64.7z</b></a> <br>
-      <a href="{{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64.tar.gz">ClassViewer-{{ site.viewer_version }}-linux-x86_64.tar.gz</a> <br>
-      <a href="{{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64.zip">ClassViewer-{{ site.viewer_version }}-linux-x86_64.zip</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Mac OS</td>
-    <td>x86_64</td>
-    <td>
-      <a href="{{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-macos.7z"><b>ClassViewer-{{ site.viewer_version }}-macos.7z</b></a> <br>
-      <a href="{{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-macos.zip">ClassViewer-{{ site.viewer_version }}-macos.zip</a>
-    </td>
-  </tr>
-</table>
+
+| Operating System | Architecture               | Download link                                                |
+| ---------------- | -------------------------- | ------------------------------------------------------------ |
+| Any              | Any                        | **[ClassViewer-{{ site.viewer_version }}.jar]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}.jar)** |
+| Windows          | x86                        | **[ClassViewer-{{ site.viewer_version }}-windows-x86.7z]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86.7z)**<br>[ClassViewer-{{ site.viewer_version }}-windows-x86.zip]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86.zip) |
+| Windows          | x86_64                     | [ClassViewer-{{ site.viewer_version }}-windows-x86_64.7z]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86_64.7z)<br/>[ClassViewer-{{ site.viewer_version }}-windows-x86_64.zip]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86_64.zip) |
+| Linux            | x86_64 (native image) [^1] | **[ClassViewer-{{ site.viewer_version }}-linux-x86_64-native.7z]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64-native.7z)**<br/>[ClassViewer-{{ site.viewer_version }}-linux-x86_64-native.tar.gz]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64-native.tar.gz) |
+| Linux            | x86_64                     | [ClassViewer-{{ site.viewer_version }}-linux-x86_64.7z]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64.7z)<br/>[ClassViewer-{{ site.viewer_version }}-linux-x86_64.tar.gz]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64.tar.gz) |
+| Mac OS           | x86_64                     | **[ClassViewer-{{ site.viewer_version }}-macos.7z]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-macos.7z)**<br/>[ClassViewer-{{ site.viewer_version }}-macos.zip]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-macos.zip) |
+
+[^1]: Native image is more compact, takes up less memory, and starts faster, but it only supports English interface and has more problems. If you encounter a problem, please [open an issue](https://github.com/ClassViewer/ClassViewer/issues/new).
