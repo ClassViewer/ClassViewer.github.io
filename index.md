@@ -17,10 +17,10 @@ ClassViewer is free and open source software, if you want to support its develop
 
 ## Screenshot
 
-![Empty page](https://glavo.oss-cn-beijing.aliyuncs.com/image/Annotation%202020-01-12%20183836.png)
+![Empty page](https://s2.ax1x.com/2020/02/04/1BC5jJ.png)
 
-![Recent Files](https://glavo.oss-cn-beijing.aliyuncs.com/image/Annotation%202020-01-12%20184117.png)
+![Recent Files](https://s2.ax1x.com/2020/02/04/1BCTBR.png)
 
-![Jar File](https://glavo.oss-cn-beijing.aliyuncs.com/image/Annotation%202020-01-12%20184233.png)
+![Jar File](https://s2.ax1x.com/2020/02/04/1BCou9.png)
 
-![Class File](https://glavo.oss-cn-beijing.aliyuncs.com/image/Annotation%202020-01-12%20184259.png)+
+![Class File](https://s2.ax1x.com/2020/02/04/1BCh3F.png)
