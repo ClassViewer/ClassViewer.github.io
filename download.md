@@ -24,4 +24,6 @@ If the download speed is too slow in the mainland of China, you can download it 
 
 [ClassViewer download](https://www.lanzous.com/b00z7vb1g)
 
+<br/>
+
 [^1]: Native image is more compact, takes up less memory, and starts faster, but it only supports English interface and has more problems. If you encounter a problem, please [open an issue](https://github.com/ClassViewer/ClassViewer/issues/new).
