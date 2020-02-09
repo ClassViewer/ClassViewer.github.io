@@ -18,6 +18,8 @@ The latest version of ClassViewer is v{{ site.viewer_version }},  it was release
 | Linux            | x86_64                     | **[ClassViewer-{{ site.viewer_version }}-linux-x86_64.7z]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64.7z)**<br/>[ClassViewer-{{ site.viewer_version }}-linux-x86_64.tar.gz]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64.tar.gz) |
 | Mac OS           | x86_64                     | **[ClassViewer-{{ site.viewer_version }}-macos.7z]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-macos.7z)**<br/>[ClassViewer-{{ site.viewer_version }}-macos.zip]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-macos.zip) |
 
+<br/>
+
 If the download speed is too slow in the mainland of China, you can download it from here:
 
 [ClassViewer download](https://www.lanzous.com/b00z7vb9e)
