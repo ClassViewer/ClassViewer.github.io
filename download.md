@@ -22,6 +22,6 @@ The latest version of ClassViewer is v{{ site.viewer_version }},  it was release
 
 If the download speed is too slow in the mainland of China, you can download it from here:
 
-[ClassViewer download](https://www.lanzous.com/b00z7vb9e)
+[ClassViewer download](https://www.lanzous.com/b00z7vb1g)
 
 [^1]: Native image is more compact, takes up less memory, and starts faster, but it only supports English interface and has more problems. If you encounter a problem, please [open an issue](https://github.com/ClassViewer/ClassViewer/issues/new).
