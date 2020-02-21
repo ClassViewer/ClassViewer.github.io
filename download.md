@@ -20,9 +20,17 @@ The latest version of ClassViewer is v{{ site.viewer_version }},  it was release
 
 <br/>
 
-If the download speed is too slow in the mainland of China, you can download it from here:
+If you download slowly, you can try downloading from the mirror link below: 
 
-[ClassViewer download](https://www.lanzous.com/b00z7vb1g)
+
+| Operating System | Architecture               | Download link                                                |
+| ---------------- | -------------------------- | ------------------------------------------------------------ |
+| Any              | Any                        | **[ClassViewer-{{ site.viewer_version }}.jar]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}.jar)** |
+| Windows          | x86                        | **[ClassViewer-{{ site.viewer_version }}-windows-x86.7z]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86.7z)**<br>[ClassViewer-{{ site.viewer_version }}-windows-x86.zip]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86.zip) |
+| Windows          | x86_64                     | [ClassViewer-{{ site.viewer_version }}-windows-x86_64.7z]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86_64.7z)<br/>[ClassViewer-{{ site.viewer_version }}-windows-x86_64.zip]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-windows-x86_64.zip) |
+| Linux            | x86_64 (native image) [^1] | **[ClassViewer-{{ site.viewer_version }}-linux-x86_64-native.7z]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64-native.7z)**<br/>[ClassViewer-{{ site.viewer_version }}-linux-x86_64-native.tar.gz]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64-native.tar.gz) |
+| Linux            | x86_64                     | **[ClassViewer-{{ site.viewer_version }}-linux-x86_64.7z]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64.7z)**<br/>[ClassViewer-{{ site.viewer_version }}-linux-x86_64.tar.gz]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-linux-x86_64.tar.gz) |
+| Mac OS           | x86_64                     | **[ClassViewer-{{ site.viewer_version }}-macos.7z]({{ site.viewer_mirror_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-macos.7z)**<br/>[ClassViewer-{{ site.viewer_version }}-macos.zip]({{ site.viewer_download_base }}/v{{ site.viewer_version }}/ClassViewer-{{ site.viewer_version }}-macos.zip) |
 
 <br/>
 
