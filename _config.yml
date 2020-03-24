@@ -29,7 +29,7 @@ logo: "/assets/img/ClassViewer.png"
 viewer_version: 3.9
 viewer_release_date: 2020-1-20
 viewer_download_base: https://github.com/ClassViewer/ClassViewer/releases/download
-viewer_mirror_download_base: https://mirror.glavo.site/ClassViewer/
+viewer_mirror_download_base: https://mirror.glavo.site/ClassViewer
 
 search_enabled: false
 
